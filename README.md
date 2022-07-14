@@ -27,7 +27,6 @@ Follow these steps to view logs in cloud watch
 ![cloud watch](./images/log%20events.png)
 * DynamoDB: A DynamoDB table was created which had the following fields; id (used as partition key), item name, item count and store location.  
 * Lambda function (triggered on S3 upload): It used Python3 as the runtime environment. Based on the event received from the S3 bucket, this function retrieves the individual item details and uploads it to the DynamoDB table.
-![updateToDynamoDB](./images/updateToDynamoDB.png)
 
 ## Output
 Below we can find the inventory items from the csv file being uploaded to the dynamodb table.
