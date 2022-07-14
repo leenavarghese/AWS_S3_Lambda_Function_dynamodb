@@ -20,8 +20,8 @@ This section explains the configurations that were configured in the following A
 Also a test event can be configured as shown below.
 ![testEvent](./images/Test%20event%20creation.png)
 While configuring the test event make sure you give the values in event.json correspondingly as shown below
-![event json](./images/event%20json%20cntd.png)
-![event json2](./images/event%20json .png)
+![event json](./images/event%20json.png)
+![event json2](./images/event%20json%20cntd.png)
 Follow these steps to view logs in cloud watch
 ![view logs](./images/view%20logs%20in%20cloud%20watch.png)
 ![cloud watch](./images/log%20events.png)
